@@ -21,6 +21,7 @@ save_path = input('folder name : ')
 for f in files:
     if not str(f).startswith('.'):
         if not str(os.path.splitext(f)[1]) == '.py':
+            print('Converting ' + f + '...')
 
             converted_name = '\\' + str(os.path.splitext(f)[0]) + '.jpg'
 
@@ -53,3 +54,4 @@ for f in files:
 for f in files:
     if str(f).lower().endswith('.png') or str(f).lower().endswith('.jpg') :
         os.remove(os.path.join(current_dir, f))
+print('\n\nConversion successful!')
