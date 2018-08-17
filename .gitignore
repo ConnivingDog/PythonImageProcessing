@@ -1,2 +1,5 @@
 TestingFiles/scratch.py
 TestingFiles/stage.py
+__pycache__
+build
+dist
