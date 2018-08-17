@@ -3,3 +3,4 @@ TestingFiles/stage.py
 __pycache__
 build
 dist
+conversion.spec

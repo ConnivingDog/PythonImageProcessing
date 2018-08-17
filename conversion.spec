@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['conversion.py'],
-             pathex=['D:\\PythonProjects\\imageconverter'],
+             pathex=['D:\\PythonProjects\\imgconverter\\PythonImageProcessing'],
              binaries=[],
              datas=[],
              hiddenimports=[],
